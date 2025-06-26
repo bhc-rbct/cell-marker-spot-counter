@@ -66,3 +66,26 @@ For each image, the following are saved in the output directory:
 - opencv-python
 - scipy
 
+Install dependencies with:
+
+```
+pip install numpy matplotlib scikit-image opencv-python scipy
+```
+
+
+## Customization
+
+- Adjust thresholds for marker detection using `-green_threshold` and `-red_threshold`.
+- Change minimum overlap size with `-min_overlap_size` to refine co-localization detection.
+
+## License
+
+MIT License
+
+## Contact
+
+For questions or issues, please open an issue on the repository.
+
+*This tool is intended for research use and should be validated for your specific imaging setup and markers.*
+
+
